@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../css/style.css"
+    <title>Hiring</title>
+</head>
+<body>
+    <div class="hiring">
+    <form method = "POST" class = "form" action = "../php/">
+        <h3>You want to have a job? You've came to the right place!</h3>
+        <br>
+        <fieldset>
+        <legend>Basic information</legend>
+        <input type = "text" name = "full_name" placeholder="Name" class = "inputText">
+        <br><br>
+        <input type = "email" name = "email" placeholder="Email" class = "inputText">
+        <br><br>
+        <textarea class = "inputText"name = "" cols = "22" rows = "10" placeholder="Give a few sentences of why you should be hired."></textarea>
+        <br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Coding languages</legend>
+        <div class="left">
+        </div>
+        <div class="right"></div>
+        <input type = "checkbox" name = "java" id = "java">
+        <label for = "java">Java</label>
+        <input type = "checkbox" name = "python" id = "python">
+        <label for = "python">Python</label>
+        <input type = "checkbox" name = "web" id = "web">
+        <label for = "web">HTML/CSS</label>
+        <input type = "checkbox" name = "scriptjava" id = "scriptjava">
+        <label for = "scriptjava">Javascript</label>
+        <input type = "checkbox" name = "c#" id = "c#">
+        <label for = "c#">C#</label>
+        <br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Device information</legend>
+        <input type = "radio" name = "os" value = "Andriod" id = "Andriod">
+        <label for = "Andriod">Andriod</label>
+        <input type = "radio" name = "os" value = "iOS" id = "iOS">
+        <label for = "iOS">iOS</label>
+        <input type = "radio" name = "os" value = "Windows" id = "Windows">
+        <label for = "Windows">Windows</label>
+        <input type = "radio" name = "os" value = "Linux" id = "Linux">
+        <label for = "Linux">Linux</label>
+        <input type = "radio" name = "os" value = "Other" id = "Other">
+        <label for = "Other">Others</label>
+        <br><br>
+        <select name = "browsers" class = "dropdown">
+            <option value = "safari">Safari</option>
+            <option value = "chrome">Chrome</option>
+            <option value = "explorer">Internet Explorer</option>
+            <option value = "edge">Microsoft Edge</option>
+            <option value = "safari">Other</option>
+        </select>
+        <br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Resume (PDF File)</legend>
+        <br><br>
+        <input type = "file" name = "photo">
+        <br><br>
+        <button type = "submit" name = "submitBtn">Apply</button>
+        <button type = "reset" name = "resetBtn">Reset Application</button>
+        <a href = "index.html">Go home</a>
+        </fieldset>
+    </div>
+    </form>
+</div>
+    </div>
+</body>
+</html>

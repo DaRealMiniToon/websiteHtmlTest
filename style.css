@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    background: #518784;
+    width: 100%;
+    text-align: center;
+}
+.hiring{
+    background: #003437;
+    width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+}
+fieldset{
+    padding: 10px;
+    border: 0px;
+    border-top: 1px solid white;
+}
+legend{
+    background: #bbddcc;
+    padding: 10px 25px;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+.textInput{
+    font-family: georgia;
+    width: 400px;
+    padding: 7px;
+    border-radius: 4px;
+    border: 0px;
+    box-shadow: 0px 0px 5px #333;
+}
+.left{
+    width: 48%;
+    float: left;
+    text-align: right;
+    border-right: 1px solid white;   
+}
+.dropdown{
+    width: 100px;
+    background: #000000;
+    color: white;
+    border-radius: 4px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 140px;
+    font-family: serif;
+    border: 0px;
+}
